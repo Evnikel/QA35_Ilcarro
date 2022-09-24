@@ -11,9 +11,6 @@ public class HelperBase {
         this.wd = wd;
     }
 
-
-
-
     public void pause(int time) {
         try {
             Thread.sleep(time);
@@ -29,6 +26,19 @@ public class HelperBase {
             element.clear();
             element.sendKeys(text);
         }
+    }
+
+    public void submit() {
+        wd.findElement(By.xpath("//*[@type='submit']")).click();
+    }
+
+    public boolean isElementPresent(By locator){
+
+        return wd.findElements(locator).size()>0;
+    }
+
+    public void click(By locator){
+        wd.findElement(locator).click();
     }
 }
 
