@@ -10,61 +10,65 @@ import org.testng.annotations.Test;
 public class LoginTests extends TestBase {
 
     @BeforeMethod
-    public void preCondition(){
-        if(app.getHelperUser().isLogged()){
+    public void preCondition() {
+        if (app.getHelperUser().isLogged()) {
             //if(app.getHelperUser().isElementPresent(By.xpath("//a"))){
             app.getHelperUser().logout();
         }
     }
 
     @Test
-    public void loginSuccess(){
+    public void loginSuccess() {
         app.getHelperUser().openLoginFormHeader();
-        app.getHelperUser().fillLoginForm("evnikel@gmail.com","Elena1234$@");
+        app.getHelperUser().fillLoginForm("evnikel@gmail.com", "Elena1234$@");
         app.getHelperUser().submit();
-
-        Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in success");
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
     }
 
     @Test
-    public void loginSuccessModels(){
+    public void loginSuccessModels() {
 
 
-        User user=new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@");
+        User user = new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@");
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
-
-        Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in success");
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+        app.getHelperUser().submit();
     }
 
     @Test
-    public void negativeWrongEmail(){
+    public void negativeWrongEmail() {
 
-        User user=new User().withEmail("evnikelgmail.com").withPassword("Elena1234$@");
+        User user = new User().withEmail("evnikelgmail.com").withPassword("Elena1234$@");
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getError(), "It'snot look like email");
         // Assert errorMessagge
+        Assert.assertTrue(app.getHelperUser().isYallaButtoNotActive());
         // Assert buttonYalla not active
     }
+
     @Test
-    public void negativeWrongPassword(){
-        User user=new User().withEmail("evnikel@gmail.com").withPassword("Ylena1234$@");
+    public void negativeWrongPassword() {
+        User user = new User().withEmail("evnikel@gmail.com").withPassword("Ylena1234$@");
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submit();
+        app.getHelperUser().submitYallaButton();
+        Assert.assertEquals(app.getHelperUser().getErrorAuthorization(), "Authorization error");
+
         // Assert text message "Authorization error"
 
     }
 
 
-            @AfterMethod
-            public void postCondition () {
-                app.getHelperUser().clickOkButton();
-            }
+    @AfterMethod
+    public void postCondition() {
+        app.getHelperUser();
+    }
 
-        }
+}

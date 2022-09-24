@@ -50,7 +50,29 @@ public class HelperUser extends HelperBase{
         wd.findElement(By.xpath("//a[text()=' Logout ']")).click();
     }
 
-    public void clickOkButton() {
-        click(By.xpath("//button[text()='Ok']"));
+    //public void clickOkButton() {
+        //click(By.xpath("//button[text()='Ok']"));
+    //}
+
+    public String getError() {
+        return wd.findElement(By.xpath("//*[@class='error']")).getText();
     }
+
+    public boolean isYallaButtoNotActive() {
+        boolean disabled = wd.findElement(By.cssSelector("button[disabled]")).isDisplayed();
+        //boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
+
+        return disabled;  ///Этот метод можно сделать общим, так как кнопка может быть активной и не активной.
+    }
+
+    public void submitYallaButton() {
+        wd.findElement(By.xpath("//*[@type='submit']")).click();
+    }
+
+    public String getErrorAuthorization() {
+        return wd.findElement(By.xpath("//*[text()='Authorization error']")).getText();
+
+    }
+
+
 }
