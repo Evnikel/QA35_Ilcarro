@@ -58,7 +58,7 @@ public class LoginTests extends TestBase {
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submitYallaButton();
+        app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getErrorAuthorization(), "Authorization error");
 
         // Assert text message "Authorization error"

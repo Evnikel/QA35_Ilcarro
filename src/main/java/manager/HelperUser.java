@@ -65,9 +65,6 @@ public class HelperUser extends HelperBase{
         return disabled;  ///Этот метод можно сделать общим, так как кнопка может быть активной и не активной.
     }
 
-    public void submitYallaButton() {
-        wd.findElement(By.xpath("//*[@type='submit']")).click();
-    }
 
     public String getErrorAuthorization() {
         return wd.findElement(By.xpath("//*[text()='Authorization error']")).getText();
