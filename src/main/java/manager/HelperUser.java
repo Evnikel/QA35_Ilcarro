@@ -56,7 +56,7 @@ public class HelperUser extends HelperBase {
         wd.findElement(By.xpath("//a[text()=' Logout ']")).click();
     }
 
-    public void clickOkButton() {
+   public void clickOkButton() {
         if (isElementPresent(By.xpath("//button[text()='Ok']")))
             click(By.xpath("//button[text()='Ok']"));
     }
