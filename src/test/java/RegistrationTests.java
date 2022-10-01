@@ -25,18 +25,24 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
+        app.getHelperUser().pause(2000);
         Assert.assertEquals(app.getHelperUser().getErrorAuthorization(), "Registered");
 
     }
 
     @Test
     public void registrationWrongPassword() {
-        User user = new User().withName("Lisa").withLastname("Snow").withEmail("lis@gmail.com").withPassword("Yis123@12");
+        User user = new User()
+                .withName("Lisa")
+                .withLastname("Snow")
+                .withEmail("lis@gmail.com")
+                .withPassword("Yis");
         app.getHelperUser().openRegistrationFormHeader();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
-        app.getHelperUser().submit();
-        //Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        Assert.assertTrue(app.getHelperUser().isYallaButtoNotActive());
     }
 
     @AfterMethod

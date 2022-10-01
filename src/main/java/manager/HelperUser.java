@@ -56,7 +56,7 @@ public class HelperUser extends HelperBase {
         wd.findElement(By.xpath("//a[text()=' Logout ']")).click();
     }
 
-   public void clickOkButton() {
+    public void clickOkButton() {
         if (isElementPresent(By.xpath("//button[text()='Ok']")))
             click(By.xpath("//button[text()='Ok']"));
     }
@@ -81,7 +81,6 @@ public class HelperUser extends HelperBase {
         WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
 
-        // pause(2000);
         return wd.findElement(By.cssSelector("div.dialog-container>h1")).getText();
 
         //return wd.findElement(By.xpath("//*[text()='Authorization error']")).getText();
@@ -109,14 +108,37 @@ public class HelperUser extends HelperBase {
     public void checkPolicyXY() {
         WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
         Rectangle rect = label.getRect();
-        int  wight = rect.getWidth();
+        int wight = rect.getWidth();
         int height = rect.getHeight();
-        int x  = rect.getX();
+        int x = rect.getX();
         int y = rect.getY();
-        int xOffsSet = wight/2;
+        int xOffsSet = wight / 2;
 
         Actions actions = new Actions(wd);
-        actions.moveToElement(label,-xOffsSet,0).click().release().perform();
+        actions.moveToElement(label, -xOffsSet, 0).click().release().perform();
+    }
+    public void login(User user) {
+        openLoginFormHeader();
+        fillLoginForm(user);
+        submit();
+        clickOkButton();
     }
 
+    public boolean isErrorPasswordFormatDisplayed() {
+        boolean lastChild = new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions
+                        .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:last-child")), "Password must contain 1 uppercase letter, 1 lowercase letter and one number"));
+
+        return lastChild;
+
+
+    }
+
+    public boolean isErrorPasswordSizeDisplayed() {
+        return new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions
+                        .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child")),
+                                "Password must contain minimum 8 symbols"));
+
+    }
 }
