@@ -1,16 +1,18 @@
 package models;
 
-
-import lombok.*;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import java.lang.module.ModuleReference;
 
+//@AllArgsConstructor
+//@NoArgsConstructor
 @Setter
 @Getter
 @ToString
 @Builder
-//@AllArgsConstructor
-//@NoArgsConstructor
 public class Car {
     private String location;
     private String make;

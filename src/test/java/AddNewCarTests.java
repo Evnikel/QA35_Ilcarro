@@ -42,7 +42,7 @@ public class AddNewCarTests extends TestBase{
                 .build();
         app.helperCar().openCarForm();
         app.helperCar().fillCarForm(car);
-        app.helperCar().attachPhoto("C:\\QA35\\QA35_Ilcarro\\src\\test\\resources\\car.jpg");
+        app.helperCar().attachPhoto("C:/QA35/QA35_Ilcarro/src/test/resources/car.jpg");
         app.helperCar().submit();
     }
 }
