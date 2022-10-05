@@ -61,11 +61,11 @@ public class HelperUser extends HelperBase {
             click(By.xpath("//button[text()='Ok']"));
     }
 
-    public String getError() {
-        return wd.findElement(By.xpath("//*[@class='error']")).getText();
+    public String  getErrorText() {
+        return wd.findElement(By.cssSelector("div.error>div")).getText();
     }
 
-    public boolean isYallaButtoNotActive() {
+    public boolean isYallaButtonNotActive() {
         boolean res = isElementPresent(By.cssSelector("button[disabled]"));
 
         return res && !wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
@@ -77,7 +77,7 @@ public class HelperUser extends HelperBase {
     }
 
 
-    public String getErrorAuthorization() {
+    public String getTitleMessage() {
         WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
 

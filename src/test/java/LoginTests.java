@@ -23,6 +23,7 @@ public class LoginTests extends TestBase {
         app.getHelperUser().fillLoginForm("evnikel@gmail.com", "Elena1234$@");
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+        app.getHelperUser().pause(500);
     }
 
     @Test
@@ -31,11 +32,10 @@ public class LoginTests extends TestBase {
 
         User user = new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@");
 
-        app.getHelperUser().openLoginFormHeader();
+        app.getHelperUser().openLoginFormFooter();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-        app.getHelperUser().submit();
     }
 
     @Test
@@ -45,10 +45,10 @@ public class LoginTests extends TestBase {
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submit();
-        Assert.assertEquals(app.getHelperUser().getError(), "It'snot look like email");
+        //app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
         // Assert errorMessagge
-        Assert.assertTrue(app.getHelperUser().isYallaButtoNotActive());
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
         // Assert buttonYalla not active
     }
 
@@ -59,7 +59,8 @@ public class LoginTests extends TestBase {
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getHelperUser().getErrorAuthorization(), "Authorization error");
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Wrong email or password");
+        Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Authorization error");
 
         // Assert text message "Authorization error"
 
