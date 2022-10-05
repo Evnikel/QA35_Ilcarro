@@ -1,0 +1,2 @@
+14:59:40.490  INFO  TestBase - Test start with name ----->loginSuccesUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}
+14:59:41.163  INFO  TestBase - Assert passedUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}

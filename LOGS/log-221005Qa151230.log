@@ -1,0 +1,2 @@
+15:12:43.662  INFO  TestBase - Test run with username and password ----->loginSuccessModelsUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}
+15:12:43.811  INFO  TestBase - Authorization ConfirmationUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}

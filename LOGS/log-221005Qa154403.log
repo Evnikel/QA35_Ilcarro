@@ -1,0 +1,15 @@
+15:44:14.175  INFO  TestBase - Test start preCondition - run with email: evnikel@gmail.com and password: Elena1234$@
+15:44:20.416  INFO  TestBase - Tests start addCarSuccess with data----->Car(location=Haifa, Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegistrationNumber=11-000-450, price=65, distanceIncluded=800, features=Type of features, about=very nice car)
+15:44:21.617  INFO  TestBase - Assert ------> Car added
+15:44:21.688  INFO  TestBase - Return ------> Search cars
+15:44:21.924  INFO  TestBase - Test start with name ----->loginSuccess
+15:44:22.357  INFO  TestBase - User login data: email: evnikel@gmail.com & password Elena1234$@
+15:44:22.472  INFO  TestBase - Assert ---> Logged in success 
+15:44:24.501  INFO  TestBase - Test start loginSuccessModels - run with username and passwordUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}
+15:44:24.641  INFO  TestBase - Assert-----> Logged in success
+15:44:25.747  INFO  TestBase - Test start negativeWrongEmail - run with username and passwordUser{name='null', lastname='null', email='evnikelgmail.com', password='Elena1234$@', phone='null'}
+15:44:25.781  INFO  TestBase - Assert error Message-----> It'snot look like email
+15:44:25.831  INFO  TestBase - Assert ------> isYallaButtonNotActive
+15:44:36.375  INFO  TestBase - Test start negativeWrongPassword - run with username and passwordUser{name='null', lastname='null', email='evnikel@gmail.com', password='Ylena1234$@', phone='null'}
+15:44:36.492  INFO  TestBase - Assert error Message-----> Wrong email or password
+15:44:36.492  INFO  TestBase - Assert ------> Authorization error

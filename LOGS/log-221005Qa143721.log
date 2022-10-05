@@ -1,0 +1,1 @@
+14:37:38.391  INFO  TestBase - Tests start with data----->Car(location=Haifa, Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegistrationNumber=11-000-513, price=65, distanceIncluded=800, features=Type of features, about=very nice car)

@@ -1,0 +1,4 @@
+15:56:11.313  INFO  TestBase - Tests start registrationSuccess with data----->User{name='Lisa', lastname='Snow', email='lis3370@gmail.com', password='Lis123@12', phone='null'}
+15:56:11.507  INFO  TestBase - Type ---> I agree to the terms of use and privacy policy and Button Yalla
+15:56:13.819  INFO  TestBase - Assert ------> Registeredd
+15:56:14.151  INFO  TestBase - RegistrationTests start preCondition - run with email: evnikel@gmail.com and password: Elena1234$@

@@ -19,9 +19,13 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginSuccess() {
+        logger.info("Test LoginTests start with name ----->loginSuccess");
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm("evnikel@gmail.com", "Elena1234$@");
+        logger.info("User login data: email: evnikel@gmail.com & password Elena1234$@");
+
         app.getHelperUser().submit();
+        logger.info("Assert ---> Logged in success ");
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
         app.getHelperUser().pause(500);
     }
@@ -34,8 +38,11 @@ public class LoginTests extends TestBase {
 
         app.getHelperUser().openLoginFormFooter();
         app.getHelperUser().fillLoginForm(user);
+        logger.info("Test start loginSuccessModels - run with username and password"   +user.toString());
         app.getHelperUser().submit();
+        logger.info("Assert-----> Logged in success");
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+
     }
 
     @Test
@@ -46,10 +53,12 @@ public class LoginTests extends TestBase {
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
         //app.getHelperUser().submit();
+        logger.info("Test start negativeWrongEmail - run with username and password"   + user.toString());
         Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
-        // Assert errorMessagge
+        logger.info("Assert error Message-----> It'snot look like email");
         Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
-        // Assert buttonYalla not active
+        logger.info("Assert ------> isYallaButtonNotActive");
+
     }
 
     @Test
@@ -58,7 +67,10 @@ public class LoginTests extends TestBase {
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
+        logger.info("Test start negativeWrongPassword - run with username and password"   + user.toString());
         app.getHelperUser().submit();
+        logger.info("Assert error Message-----> Wrong email or password");
+        logger.info("Assert ------> Authorization error");
         Assert.assertEquals(app.getHelperUser().getMessage(),"Wrong email or password");
         Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Authorization error");
 

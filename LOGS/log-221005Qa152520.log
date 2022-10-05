@@ -1,0 +1,8 @@
+15:25:30.467  INFO  TestBase - Test start with name ----->loginSuccess
+15:25:30.888  INFO  TestBase - User login data: email: evnikel@gmail.com & password Elena1234$@
+15:25:31.070  INFO  TestBase - Assert ---> Logged in success 
+15:25:33.196  INFO  TestBase - Test loginSuccessModels - run with username and passwordUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}
+15:25:33.363  INFO  TestBase - Assert-----> Logged in success
+15:25:50.421  INFO  TestBase - Test negativeWrongPassword - run with username and passwordUser{name='null', lastname='null', email='evnikel@gmail.com', password='Ylena1234$@', phone='null'}
+15:25:50.535  INFO  TestBase - Assert errorMessagge-----> Wrong email or password
+15:25:50.535  INFO  TestBase - Assert ------> Authorization error

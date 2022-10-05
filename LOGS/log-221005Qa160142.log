@@ -1,0 +1,8 @@
+16:01:52.582  INFO  TestBase - Tests start registrationSuccess with data----->User{name='Lisa', lastname='Snow', email='lis111@gmail.com', password='Lis123@12', phone='null'}
+16:01:52.782  INFO  TestBase - Type ---> I agree to the terms of use and privacy policy and Button Yalla
+16:01:54.992  INFO  TestBase - Assert ------> Registeredd
+16:01:55.269  INFO  TestBase - RegistrationTests start preCondition - run with email: evnikel@gmail.com and password: Elena1234$@
+16:01:56.031  INFO  TestBase - Test registrationWrongPassword start- run withUser{name='Lisa', lastname='Snow', email='lis@gmail.com', password='Yis', phone='null'}
+16:01:56.324  INFO  TestBase - Assert Error ---> Password must contain 1 uppercase letter, 1 lowercase letter and one number
+16:01:56.406  INFO  TestBase - Assert Error ---> Password must contain minimum 8 symbols
+16:01:56.489  INFO  TestBase - Assert  ---> isYallaButtonNotActive

@@ -1,0 +1,11 @@
+15:32:57.887  INFO  TestBase - Test start with name ----->loginSuccess
+15:32:58.365  INFO  TestBase - User login data: email: evnikel@gmail.com & password Elena1234$@
+15:32:58.534  INFO  TestBase - Assert ---> Logged in success 
+15:33:00.567  INFO  TestBase - Test start loginSuccessModels - run with username and passwordUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}
+15:33:00.705  INFO  TestBase - Assert-----> Logged in success
+15:33:01.847  INFO  TestBase - Test start negativeWrongEmail - run with username and passwordUser{name='null', lastname='null', email='evnikelgmail.com', password='Elena1234$@', phone='null'}
+15:33:01.919  INFO  TestBase - Assert error Message-----> It'snot look like email
+15:33:02.014  INFO  TestBase - Assert ------> isYallaButtonNotActive
+15:33:12.471  INFO  TestBase - Test start negativeWrongPassword - run with username and passwordUser{name='null', lastname='null', email='evnikel@gmail.com', password='Ylena1234$@', phone='null'}
+15:33:12.567  INFO  TestBase - Assert error Message-----> Wrong email or password
+15:33:12.567  INFO  TestBase - Assert ------> Authorization error

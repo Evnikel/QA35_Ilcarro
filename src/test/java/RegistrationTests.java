@@ -11,6 +11,7 @@ public class RegistrationTests extends TestBase {
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
+            logger.info("RegistrationTests start preCondition - run with email: evnikel@gmail.com and password: Elena1234$@");
         }
     }
 
@@ -23,10 +24,14 @@ public class RegistrationTests extends TestBase {
 
         app.getHelperUser().openRegistrationFormHeader();
         app.getHelperUser().fillRegistrationForm(user);
+        logger.info("Tests start registrationSuccess with data----->" +user.toString());
         app.getHelperUser().checkPolicyXY();
+        logger.info("Type ---> I agree to the terms of use and privacy policy and Button Yalla");
         app.getHelperUser().submit();
         app.getHelperUser().pause(2000);
         Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Registered");
+        logger.info("Assert ------> Registeredd");
+
 
     }
 
@@ -39,10 +44,15 @@ public class RegistrationTests extends TestBase {
                 .withPassword("Yis");
         app.getHelperUser().openRegistrationFormHeader();
         app.getHelperUser().fillRegistrationForm(user);
+        logger.info("Test registrationWrongPassword start- run with" +user.toString());
         app.getHelperUser().checkPolicyXY();
-        //Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
-        //Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+        logger.info("Assert Error ---> Password must contain 1 uppercase letter, 1 lowercase letter and one number");
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        logger.info("Assert Error ---> Password must contain minimum 8 symbols");
         Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+        logger.info("Assert  ---> isYallaButtonNotActive");
+
     }
 
     @AfterMethod
