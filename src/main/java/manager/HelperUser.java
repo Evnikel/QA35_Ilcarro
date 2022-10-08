@@ -63,6 +63,7 @@ public class HelperUser extends HelperBase {
 
     public String  getErrorText() {
         return wd.findElement(By.cssSelector("div.error>div")).getText();
+        //return wd.findElement(By.cssSelector("div.error>")).getText();
     }
 
     public boolean isYallaButtonNotActive() {
