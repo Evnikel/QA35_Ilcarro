@@ -11,9 +11,13 @@ public class LoginTests extends TestBase {
 
     @BeforeMethod
     public void preCondition() {
+        logger.info("Start checking authorization");
         if (app.getHelperUser().isLogged()) {
             //if(app.getHelperUser().isElementPresent(By.xpath("//a"))){
             app.getHelperUser().logout();
+            logger.info("Test was needed in logout ");
+        }else {
+            logger.info("Test was not needed in logout ");
         }
     }
 
