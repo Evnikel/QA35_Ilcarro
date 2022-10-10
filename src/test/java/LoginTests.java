@@ -1,3 +1,4 @@
+import manager.DataProviderUser;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -5,9 +6,17 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class LoginTests extends TestBase {
+
+
+
 
     @BeforeMethod
     public void preCondition() {
@@ -21,11 +30,12 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
-    public void loginSuccess() {
-        logger.info("Test LoginTests start with name ----->loginSuccess");
+    @Test (dataProvider = "datalogin", dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(String email, String password) {
+        logger.info("Test LoginTests start with name ----->email: " +email+ "password" +password);
+
         app.getHelperUser().openLoginFormHeader();
-        app.getHelperUser().fillLoginForm("evnikel@gmail.com", "Elena1234$@");
+        app.getHelperUser().fillLoginForm(email, password);
         logger.info("User login data: email: evnikel@gmail.com & password Elena1234$@");
 
         app.getHelperUser().submit();
@@ -33,6 +43,22 @@ public class LoginTests extends TestBase {
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
         app.getHelperUser().pause(500);
     }
+
+    @Test(dataProvider = "dataModelUser",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelsDP(User user) {
+
+        logger.info("Login scenario success was used data"+user.toString());
+
+        app.getHelperUser().openLoginFormFooter();
+        app.getHelperUser().fillLoginForm(user);
+        logger.info("Test start loginSuccessModels - run with username and password"   +user.toString());
+        app.getHelperUser().submit();
+        logger.info("Assert-----> Logged in success");
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+
+    }
+
+
 
     @Test
     public void loginSuccessModels() {
