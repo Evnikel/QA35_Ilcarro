@@ -16,7 +16,7 @@ public class RegistrationTests extends TestBase {
     }
 
 
-    @Test
+    @Test(invocationCount = 3)
     public void registrationSuccess() {
         System.out.println(System.currentTimeMillis());
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;

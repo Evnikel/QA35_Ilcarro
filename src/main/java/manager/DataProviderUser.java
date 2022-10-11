@@ -13,9 +13,8 @@ public class DataProviderUser {
     public Iterator<Object[]> datalogin() {
         List<Object[]> list = new ArrayList<>();
         list.add(new Object[]{"evnikel@gmail.com", "Elena1234$@"});
-        list.add(new Object[]{"evnikel@gmail.com", "Elena1234$@"});
-        list.add(new Object[]{"evnikel@gmail.com", "Elena1234$@"});
-
+        list.add(new Object[]{"lis2161@gmail.com", "Lis123@12"});
+        list.add(new Object[]{"lis2165@gmail.com", "Lis123@12"});
         return list.iterator();
     }
 
@@ -24,8 +23,8 @@ public class DataProviderUser {
         List<Object[]> list = new ArrayList<>();
 
         list.add(new Object[]{new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@")});
-        list.add(new Object[]{new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@")});
-        list.add(new Object[]{new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@")});
+        list.add(new Object[]{new User().withEmail("lis2161@gmail.com").withPassword("Lis123@12")});
+        list.add(new Object[]{new User().withEmail("lis2165@gmail.com").withPassword("Lis123@12")});
 
 
         return list.iterator();
