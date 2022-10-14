@@ -1,3 +1,4 @@
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -15,13 +16,28 @@ public class RegistrationTests extends TestBase {
         }
     }
 
+    @Test(dataProvider = "regDataValid", dataProviderClass = DataProviderUser.class)
+    public void registrationSuccessDP(User user) {
+        logger.info("Registration scenario success was used data"+user.toString());
+
+        app.getHelperUser().openRegistrationFormHeader();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+        app.getHelperUser().submit();
+        app.getHelperUser().pause(2000);
+        Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Registered");
+        logger.info("In assert checked message 'Registered' in dialog  ");
+
+
+    }
+
 
     @Test(invocationCount = 3)
     public void registrationSuccess() {
         System.out.println(System.currentTimeMillis());
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = new User().withName("Lisa").withLastname("Snow").withEmail("lis" + i + "@gmail.com").withPassword("Lis123@12");
-
+        logger.info("Registration  scenario success was used data"+user.toString());
         app.getHelperUser().openRegistrationFormHeader();
         app.getHelperUser().fillRegistrationForm(user);
         logger.info("Tests start registrationSuccess with data----->" +user.toString());

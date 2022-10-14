@@ -15,6 +15,7 @@ public class ApplicationManager {
     WebDriver wd;
     HelperUser helperUser;
     HelperCar helperCar;
+    HelperSearch helperSearch;
 
     public void init(){
         WebDriverListener listener = new ListenerWD();
@@ -28,12 +29,16 @@ public class ApplicationManager {
         logger.info("Current URL is -->"+ wd.getCurrentUrl());
         helperUser = new HelperUser(wd);
         helperCar= new HelperCar(wd);
+        helperSearch=new HelperSearch(wd);
     }
 
     public void stop(){
         wd.quit();
     }
 
+    public HelperSearch getSearch() {
+        return helperSearch;
+    }
 
     public HelperUser getHelperUser() {
         return helperUser;

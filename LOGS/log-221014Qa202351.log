@@ -1,0 +1,21 @@
+20:23:54.043  INFO  manager.ApplicationManager - Chrome Driver was opened
+20:23:56.626  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+20:23:56.702  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+20:23:56.740  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+20:23:56.928  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+20:23:57.344  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+20:23:57.398  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+20:23:57.422  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+20:23:57.562  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[@aria-label='Next month']
+20:23:57.592  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[@aria-label='Next month']
+20:23:57.707  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 ']
+20:23:57.754  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 25 ']
+20:23:57.875  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 30 ']
+20:23:57.911  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 30 ']
+20:23:58.011  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+20:23:58.046  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+20:23:58.119  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+20:23:58.149  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+20:23:58.335  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+20:23:59.289  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+20:23:59.290  INFO  manager.ListenerWD - List size is -->1

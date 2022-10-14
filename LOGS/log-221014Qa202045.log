@@ -1,0 +1,21 @@
+20:20:48.815  INFO  manager.ApplicationManager - Chrome Driver was opened
+20:20:51.341  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+20:20:51.414  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+20:20:51.470  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+20:20:51.676  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+20:20:52.043  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+20:20:52.131  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[@aria-label='Next month']
+20:20:57.170  INFO  manager.ListenerWD - We have a 'problem'
+20:20:57.170  INFO  manager.ListenerWD - The name of error method  findElement
+20:20:57.185  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Next month']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4790a72edd043fb9608b7d84df741d1f, findElement {using=xpath, value=//button[@aria-label='Next month']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63195/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4790a72edd043fb9608b7d84df741d1f
+20:20:57.185  INFO  manager.ListenerWD - *********************
+20:20:57.185  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (4790a72edd043fb9608b7d84df741d1f)
+20:20:57.185  INFO  manager.ListenerWD - Screen with error is 1841   src/test/screenshots1841.png

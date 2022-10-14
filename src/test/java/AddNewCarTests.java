@@ -1,3 +1,4 @@
+import manager.DataProviderCar;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -50,6 +51,19 @@ public class AddNewCarTests extends TestBase{
         logger.info("Tests start addCarSuccess with data----->" +car.toString());
         Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Car added");
         logger.info("Assert ------> Car added");
+
+    }
+
+    @Test (dataProvider = "carValidData",dataProviderClass = DataProviderCar.class)
+    public void addCarSuccessDP(Car car){
+        logger.info("The test used car model : " +car.toString());
+        app.helperCar().openCarForm();
+        app.helperCar().fillCarForm(car);
+        app.helperCar().attachPhoto("C:/QA35/QA35_Ilcarro/src/test/resources/car.jpg");
+        app.helperCar().submit();
+
+        Assert.assertEquals(app.getHelperUser().getTitleMessage(),"Car added");
+        logger.info("In assert checked message 'Car added' in dialog  ");
 
     }
     @AfterMethod
