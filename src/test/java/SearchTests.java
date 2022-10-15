@@ -17,7 +17,9 @@ public class SearchTests extends TestBase {
     }
 
     @Test
-    public void searchPeriodFuture() {
+    public void searchPeriodFuture() { // Если этот метод отработает, думаю его лучше прописать для проверки
+        // негативного сценария.
+        // указать дату прошлого. Тогда можно Ассерт написать на проверку сообщения об ошибке. 
         app.getSearch().searchPeriodFuture("Tel Aviv", "10/25/2022", "12/25/2022");
         app.getSearch().submit();
 
