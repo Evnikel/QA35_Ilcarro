@@ -1,0 +1,27 @@
+21:06:05.771  INFO  manager.ApplicationManager - Chrome Driver was opened
+21:06:08.588  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+21:06:08.640  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+21:06:08.676  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+21:06:08.866  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+21:06:09.271  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+21:06:09.330  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+21:06:09.372  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+21:06:09.571  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+21:06:09.606  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+21:06:09.679  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 ']
+21:06:09.730  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 25 ']
+21:06:09.811  INFO  manager.ListenerWD - We have a 'problem'
+21:06:09.811  INFO  manager.ListenerWD - The name of error method  click
+21:06:09.815  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [60261f56b99a30d545847db12e74929c, clickElement {id=6891bf46-80e4-4497-8ef7-83ed5af4730b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65338/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (60261f56b99a30d545847db12e74929c)] -> xpath: //div[text()=' 25 ']]
+Session ID: 60261f56b99a30d545847db12e74929c
+21:06:09.817  INFO  manager.ListenerWD - *********************
+21:06:09.819  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (60261f56b99a30d545847db12e74929c)] -> xpath: //div[text()=' 25 ']]
+21:06:09.825  INFO  manager.ListenerWD - Screen with error is 1408   src/test/screenshots1408.png

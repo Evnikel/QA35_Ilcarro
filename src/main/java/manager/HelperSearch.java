@@ -1,7 +1,9 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class HelperSearch extends HelperBase{
     public HelperSearch(WebDriver wd) {
@@ -69,11 +71,34 @@ public class HelperSearch extends HelperBase{
         typeCity(city);
         click(By.id("dates"));
         click(By.xpath("//button[@aria-label='Next month']"));
+        logger.info("Click on the button Next month");
         String[] from =dataFrom.split("/");
         String locator = String.format("//div[text()=' %s ']",from[1]) ;
         click(By.xpath(locator));
         String [] to = dataTo.split("/");
         String locator2 =  String.format("//div[text()=' %s ']",to[1]);
         click(By.xpath(locator2));
+    }
+
+    public void searchPeriodFuture(String city, String dataFrom, String dataTo) {
+        typeCity(city);//Первый шаг тайпнуть на строку Город
+        clearPeriod();/// Это я указала, так как остаются предыдущие значения и надо очистить.
+        // но так как там надо удалить или все выделив мышью или клавишами, я загуглила. Нашла сособ.
+        // // Не уверенна, что вернуый. Проверить не могу.
+        type(By.id("dates"),dataFrom dataTo);//<-----Тут не знаю, как склеить датаФром и датаТу  );
+        // Дальше у нас не клик уже идет, а Тайп и там получается надо сначала указать любой период в месяце,
+        // а потом в ручную поменять месяц. Чтоб курсор встал на строку я должна кликнуть на весь контейнер.
+        // Его локатор я нашла, ниже указала. Тоже не уверенна, что правильно.
+        // Там достаточно сложно было понять.
+        click(By.cssSelector(".cdk-overlay-container"));
+
+
+    }
+
+    private void clearPeriod() {
+        WebElement el = wd.findElement(By.id("dates"));
+        el.sendKeys(Keys.CONTROL,"a");/// Почитала на этом сайте https://questu.ru/questions/7732125/
+        el.sendKeys(Keys.DELETE);
+
     }
 }
