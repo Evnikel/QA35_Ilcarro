@@ -1,0 +1,14 @@
+22:31:51.615  INFO  manager.ApplicationManager - Chrome Driver was opened
+22:31:54.381  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+22:31:54.437  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+22:31:54.481  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+22:31:54.681  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+22:31:55.084  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+22:31:55.139  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+22:31:55.171  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+22:31:55.282  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+22:31:55.340  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+22:31:55.704  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+22:31:55.738  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+22:31:55.828  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+22:31:55.863  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']

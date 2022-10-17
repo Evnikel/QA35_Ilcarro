@@ -61,11 +61,6 @@ public class HelperUser extends HelperBase {
             click(By.xpath("//button[text()='Ok']"));
     }
 
-    public String  getErrorText() {
-        return wd.findElement(By.cssSelector("div.error>div")).getText();
-        //return wd.findElement(By.cssSelector("div.error>")).getText();
-    }
-
     public boolean isYallaButtonNotActive() {
         boolean res = isElementPresent(By.cssSelector("button[disabled]"));
 
@@ -76,6 +71,13 @@ public class HelperUser extends HelperBase {
 
         //return disabled;  ///Этот метод можно сделать общим, так как кнопка может быть активной и не активной.
     }
+
+    public String  getErrorText() {
+        return wd.findElement(By.cssSelector("div.error>div")).getText();
+        //return wd.findElement(By.cssSelector("div.error>")).getText();
+    }
+
+
 
 
     public String getTitleMessage() {

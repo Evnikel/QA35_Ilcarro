@@ -81,15 +81,9 @@ public class HelperSearch extends HelperBase{
     }
 
     public void searchPeriodFuture(String city, String dataFrom, String dataTo) {
-        typeCity(city);//Первый шаг тайпнуть на строку Город
-        clearPeriod();/// Это я указала, так как остаются предыдущие значения и надо очистить.
-        // Но так как там надо удалить или все выделив мышью или клавишами, я загуглила. Нашла способ.
-        // // Не уверенна, что верный. Проверить не могу.
-        type(By.id("dates"),dataFrom dataTo);//<-----Тут не знаю, как склеить датаФром и датаТу );
-        // Дальше у нас не клик уже идет, а Тайп и там получается надо сначала указать любой период в месяце,
-        // а потом в ручную поменять месяц. Чтоб курсор встал на строку я должна кликнуть на весь контейнер.
-        // Его локатор я нашла, ниже указала. Тоже не уверенна, что правильно.
-        // Там достаточно сложно было понять.
+        typeCity(city);
+        clearPeriod();
+        type(By.id("dates"),dataFrom+ " - " +dataTo);
         click(By.cssSelector(".cdk-overlay-container"));
 
 
@@ -99,6 +93,34 @@ public class HelperSearch extends HelperBase{
         WebElement el = wd.findElement(By.id("dates"));
         el.sendKeys(Keys.CONTROL,"a");/// Почитала на этом сайте https://questu.ru/questions/7732125/
         el.sendKeys(Keys.DELETE);
+
+    }
+
+    public void searchPeriodPast(String city, String dataFrom, String dataTo) {
+        typeCity(city);
+        clearPeriod();
+        type(By.id("dates"),dataFrom+ " - " +dataTo);
+        click(By.cssSelector(".cdk-overlay-container"));
+    }
+
+    public boolean isPeriodInPast() {
+        logger.info("Error: You can't pick date before today");
+        return wd.findElement(By.cssSelector("div.error div"))
+                .getText().equals("You can't pick date before today");
+    }
+
+    public void searchPeriodFuture2(String city, String dataFrom, String dataTo) {
+        typeCity(city);
+        click(By.id("dates"));
+        click(By.xpath("//button[@aria-label='Next month']"));
+        logger.info("Click on the button Next month");
+        String[] from =dataFrom.split("/");
+        String locator = String.format("//div[text()=' %s ']",from[1]) ;
+        click(By.xpath(locator));
+        click(By.xpath("//button[@aria-label='Next month']"));
+        String [] to = dataTo.split("/");
+        String locator2 =  String.format("//div[text()=' %s ']",to[1]);
+        click(By.xpath(locator2));
 
     }
 }

@@ -1,0 +1,15 @@
+22:35:16.704  INFO  manager.ApplicationManager - Chrome Driver was opened
+22:35:19.038  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+22:35:19.119  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+22:35:19.171  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+22:35:19.385  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+22:35:19.787  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+22:35:19.865  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+22:35:19.897  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+22:35:20.005  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+22:35:20.049  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+22:35:20.427  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+22:35:20.459  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+22:35:20.532  INFO  manager.HelperBase - Error: You can't pick date before today
+22:35:20.532  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.error div
+22:35:20.573  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.error div
