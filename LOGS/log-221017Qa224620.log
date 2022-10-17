@@ -1,0 +1,20 @@
+22:46:26.273  INFO  manager.ApplicationManager - Chrome Driver was opened
+22:46:30.287  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+22:46:30.388  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+22:46:30.480  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+22:46:30.806  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+22:46:31.210  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+22:46:31.320  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+22:46:31.383  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+22:46:31.583  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+22:46:31.639  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+22:46:32.263  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+22:46:32.324  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+22:46:32.456  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[disabled]
+22:46:32.551  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: button[disabled]
+22:46:32.552  INFO  manager.ListenerWD - List size is -->2
+22:46:32.553  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [type='submit']
+22:46:32.606  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [type='submit']
+22:46:32.639  INFO  manager.HelperBase - Error: You can't pick date before today
+22:46:32.639  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.error div
+22:46:32.692  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.error div

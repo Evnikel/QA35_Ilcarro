@@ -37,7 +37,7 @@ public class SearchTests extends TestBase {
     @Test
     public void searchPeriodPast(){
         app.getSearch().searchPeriodPast("Tel Aviv", "09/25/2022", "12/25/2022");
-        //Assert.assertTrue(app.getSearch().isYallaButtonNotActive());
+        Assert.assertTrue(app.getSearch().isYallaButtonNotActive());
         Assert.assertTrue(app.getSearch().isPeriodInPast());
 
 
