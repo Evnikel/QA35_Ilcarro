@@ -31,14 +31,23 @@ public class SearchTests extends TestBase {
         // негативного сценария.
         // указать дату прошлого. Тогда можно Ассерт написать на проверку сообщения об ошибке.
         app.getSearch().searchPeriodFuture2("Tel Aviv", "11/25/2022", "12/25/2022");
-        app.getSearch().submit();
-        Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
+
     }
     @Test
-    public void searchPeriodPast(){
-        app.getSearch().searchPeriodPast("Tel Aviv", "09/25/2022", "12/25/2022");
+    public void searchInPast(){
+        app.getSearch().typePeriodInPast("Tel Aviv","10/5/2022","10/10/2022");
+        app.getSearch().submitWithoutWaiting();
         Assert.assertTrue(app.getSearch().isYallaButtonNotActive());
-        Assert.assertTrue(app.getSearch().isPeriodInPast());
+        Assert.assertTrue(app.getSearch().isErrorMessageDisplayed());
+
+
+    }
+
+    @Test
+    public void searchAnePeriod(){
+        app.getSearch().selectAnyPeriod("Tel Aviv", "12/20/2022","1/18/2023");
+        app.getSearch().submit();
+        Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
 
 
     }

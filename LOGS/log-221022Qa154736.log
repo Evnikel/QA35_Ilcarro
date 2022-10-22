@@ -1,0 +1,123 @@
+15:47:40.382  INFO  manager.ApplicationManager - Chrome Driver was opened
+15:47:42.865  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+15:47:42.961  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+15:47:43.010  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+15:47:43.168  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+15:47:43.631  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+15:47:43.681  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+15:47:43.714  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+15:47:43.865  INFO  manager.HelperBase - year --> 2022
+15:47:43.865  INFO  manager.HelperBase - Day  of Month -->22
+15:47:43.865  INFO  manager.HelperBase - Month value -->10
+15:47:43.866  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+15:47:43.900  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+15:47:44.027  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+15:47:44.079  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+15:47:44.204  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 20 ']
+15:47:44.242  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 20 ']
+15:47:44.322  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+15:47:44.347  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+15:47:44.419  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 18 ']
+15:47:44.448  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 18 ']
+15:47:44.535  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+15:47:44.573  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+15:47:44.646  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+15:47:44.671  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+15:47:44.810  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+15:47:46.474  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+15:47:46.474  INFO  manager.ListenerWD - List size is -->1
+15:47:46.489  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+15:47:46.521  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+15:47:46.734  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+15:47:46.814  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+15:47:46.873  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+15:47:51.927  INFO  manager.ListenerWD - We have a 'problem'
+15:47:51.927  INFO  manager.ListenerWD - The name of error method  findElement
+15:47:51.928  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13ebc68a42ce5131a7f684aa6b46e7a7, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51591/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13ebc68a42ce5131a7f684aa6b46e7a7
+15:47:51.929  INFO  manager.ListenerWD - *********************
+15:47:51.929  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (13ebc68a42ce5131a7f684aa6b46e7a7)
+15:47:51.932  INFO  manager.ListenerWD - Screen with error is 1000   src/test/screenshots1000.png
+15:47:52.454  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+15:47:52.473  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+15:47:52.621  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+15:47:52.641  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+15:47:52.694  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+15:47:57.736  INFO  manager.ListenerWD - We have a 'problem'
+15:47:57.737  INFO  manager.ListenerWD - The name of error method  findElement
+15:47:57.738  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13ebc68a42ce5131a7f684aa6b46e7a7, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51591/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13ebc68a42ce5131a7f684aa6b46e7a7
+15:47:57.739  INFO  manager.ListenerWD - *********************
+15:47:57.740  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (13ebc68a42ce5131a7f684aa6b46e7a7)
+15:47:57.741  INFO  manager.ListenerWD - Screen with error is 1387   src/test/screenshots1387.png
+15:47:58.202  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+15:47:58.214  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+15:47:58.339  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+15:47:58.588  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+15:47:58.686  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+15:48:03.723  INFO  manager.ListenerWD - We have a 'problem'
+15:48:03.724  INFO  manager.ListenerWD - The name of error method  findElement
+15:48:03.728  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13ebc68a42ce5131a7f684aa6b46e7a7, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51591/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13ebc68a42ce5131a7f684aa6b46e7a7
+15:48:03.729  INFO  manager.ListenerWD - *********************
+15:48:03.730  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (13ebc68a42ce5131a7f684aa6b46e7a7)
+15:48:03.730  INFO  manager.ListenerWD - Screen with error is 1456   src/test/screenshots1456.png
+15:48:04.368  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+15:48:04.395  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+15:48:04.590  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+15:48:04.815  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+15:48:04.872  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+15:48:09.902  INFO  manager.ListenerWD - We have a 'problem'
+15:48:09.902  INFO  manager.ListenerWD - The name of error method  findElement
+15:48:09.903  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13ebc68a42ce5131a7f684aa6b46e7a7, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51591/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13ebc68a42ce5131a7f684aa6b46e7a7
+15:48:09.905  INFO  manager.ListenerWD - *********************
+15:48:09.906  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (13ebc68a42ce5131a7f684aa6b46e7a7)
+15:48:09.907  INFO  manager.ListenerWD - Screen with error is 1914   src/test/screenshots1914.png
+15:48:10.605  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+15:48:10.622  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+15:48:10.836  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+15:48:11.090  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+15:48:11.241  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+15:48:16.261  INFO  manager.ListenerWD - We have a 'problem'
+15:48:16.262  INFO  manager.ListenerWD - The name of error method  findElement
+15:48:16.263  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13ebc68a42ce5131a7f684aa6b46e7a7, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51591/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13ebc68a42ce5131a7f684aa6b46e7a7
+15:48:16.265  INFO  manager.ListenerWD - *********************
+15:48:16.266  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (13ebc68a42ce5131a7f684aa6b46e7a7)
+15:48:16.266  INFO  manager.ListenerWD - Screen with error is 1379   src/test/screenshots1379.png

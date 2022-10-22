@@ -1,0 +1,19 @@
+21:31:33.642  INFO  manager.ApplicationManager - Chrome Driver was opened
+21:31:36.056  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+21:31:36.110  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+21:31:36.153  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+21:31:36.326  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+21:31:36.660  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+21:31:36.735  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+21:31:36.787  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+21:31:36.954  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 ']
+21:31:36.989  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 25 ']
+21:31:37.116  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 30 ']
+21:31:37.147  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 30 ']
+21:31:37.232  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:31:37.264  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:31:37.341  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:31:37.369  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:31:37.503  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+21:31:38.486  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+21:31:38.486  INFO  manager.ListenerWD - List size is -->1

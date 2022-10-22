@@ -1,0 +1,22 @@
+21:32:03.865  INFO  manager.ApplicationManager - Chrome Driver was opened
+21:32:06.447  INFO  manager.ApplicationManager - Current URL is -->https://ilcarro-1578153671498.web.app/search
+21:32:06.529  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+21:32:06.574  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+21:32:06.842  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+21:32:07.158  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+21:32:07.236  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+21:32:07.279  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+21:32:07.486  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[@aria-label='Next month']
+21:32:07.541  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[@aria-label='Next month']
+21:32:07.715  INFO  manager.HelperBase - Click on the button Next month
+21:32:07.716  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 26 ']
+21:32:07.768  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 26 ']
+21:32:07.868  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 30 ']
+21:32:07.904  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 30 ']
+21:32:08.011  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:32:08.049  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:32:08.135  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:32:08.172  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:32:08.323  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+21:32:09.290  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .cars-container.ng-star-inserted
+21:32:09.291  INFO  manager.ListenerWD - List size is -->1

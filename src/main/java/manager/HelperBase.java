@@ -63,5 +63,8 @@ public class HelperBase {
     }
 
 
+    public void submitWithoutWaiting() {
+        wd.findElement(By.cssSelector("button[type='submit']")).click();
+    }
 }
 
