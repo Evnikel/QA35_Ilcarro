@@ -54,7 +54,7 @@ public class AddNewCarTests extends TestBase{
 
     }
 
-    @Test (dataProvider = "carValidData",dataProviderClass = DataProviderCar.class)
+    @Test (dataProvider = "carValidData",dataProviderClass = DataProviderCar.class,enabled = false)
     public void addCarSuccessDP(Car car){
         logger.info("The test used car model : " +car.toString());
         app.helperCar().openCarForm();

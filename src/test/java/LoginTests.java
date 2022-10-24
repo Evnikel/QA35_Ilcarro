@@ -82,7 +82,7 @@ public class LoginTests extends TestBase {
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        //app.getHelperUser().submit();
+        app.getHelperUser().submitWithoutWaiting();
         logger.info("Test start negativeWrongEmail - run with username and password"   + user.toString());
         Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
         logger.info("Assert error Message-----> It'snot look like email");
@@ -98,7 +98,7 @@ public class LoginTests extends TestBase {
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
         logger.info("Test start negativeWrongPassword - run with username and password"   + user.toString());
-        app.getHelperUser().submit();
+        app.getHelperUser().submitWithoutWaiting();
         logger.info("Assert error Message-----> Wrong email or password");
         logger.info("Assert ------> Authorization error");
         Assert.assertEquals(app.getHelperUser().getMessage(),"Wrong email or password");

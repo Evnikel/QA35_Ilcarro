@@ -64,7 +64,7 @@ public class ListenerWD implements WebDriverListener {
 
         Random random = new Random();
         int i = random.nextInt(1000)+1000;
-        String link = "src/test/screenshots"+i+".png";
+        String link = "src/test/screenshots" +i+ ".png";
         logger.info("Screen with error is "+ i +"   " + link);
 
         WebDriver wd = (ChromeDriver) target;
