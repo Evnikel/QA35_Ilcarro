@@ -56,11 +56,10 @@ public class HelperSearch extends HelperBase {
         type(By.id("city"), city);
         pause(500);
         click(By.cssSelector("div.pac-item"));
-        //pause(500);
     }
 
     public boolean isListOfCarsAppeared() {
-        return isElementPresent(By.cssSelector(".cars-container.ng-star-inserted"));
+        return isElementPresent(By.cssSelector("a.car-container"));
     }
 
     public void searchNextMonth(String city, String dataFrom, String dataTo) {
@@ -97,19 +96,6 @@ public class HelperSearch extends HelperBase {
 //
 //
 //    }
-
-    public void searchPeriodFuture(String city, String dataFrom, String dataTo) {
-        typeCity(city);
-        clearTextBoxDates();
-        type(By.id("dates"), dataFrom + " - " + dataTo);
-        click(By.cssSelector(".cdk-overlay-container"));
-
-
-    }
-
-
-
-
         public void typePeriodInPast (String city, String dataFrom, String dataTo){
             typeCity(city);
             clearTextBoxDates();
@@ -122,27 +108,7 @@ public class HelperSearch extends HelperBase {
             type(By.id("dates"), dataFrom + " - " + dataTo);
         }
 
-        public boolean isErrorMessageDisplayed () {
-            logger.info("Error: You can't pick date before today");
-            return wd.findElement(By.cssSelector("div.error div"))
-                    .getText().equals("You can't pick date before today");
-        }
 
-        public void searchPeriodFuture2 (String city, String dataFrom, String dataTo){
-            typeCity(city);
-            clearTextBoxDates();
-            click(By.id("dates"));
-            click(By.xpath("//button[@aria-label='Next month']"));
-            logger.info("Click on the button Next month");
-            String[] from = dataFrom.split("/");
-            String locator = String.format("//div[text()=' %s ']", from[1]);
-            click(By.xpath(locator));
-            click(By.xpath("//button[@aria-label='Next month']"));
-            String[] to = dataTo.split("/");
-            String locator2 = String.format("//div[text()=' %s ']", to[1]);
-            click(By.xpath(locator2));
-
-        }
 
         public void selectAnyPeriod (String city, String dataFrom, String dataTo)
         {  // "11/10/2022"                   "6/10/2023"

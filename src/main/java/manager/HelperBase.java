@@ -51,16 +51,7 @@ public class HelperBase {
         wd.findElement(locator).click();
     }
 
-    public boolean isYallaButtonNotActive() {
-        boolean res = isElementPresent(By.cssSelector("button[disabled]"));
 
-        return res && !wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
-
-        //boolean disabled = wd.findElement(By.cssSelector("button[disabled]")).isDisplayed();
-        //boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
-
-        //return disabled;  ///Этот метод можно сделать общим, так как кнопка может быть активной и не активной.
-    }
 
 
     public void submitWithoutWaiting() {

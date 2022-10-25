@@ -61,16 +61,18 @@ public class HelperUser extends HelperBase {
             click(By.xpath("//button[text()='Ok']"));
     }
 
-//    public boolean isYallaButtonNotActive() {
-//        boolean res = isElementPresent(By.cssSelector("button[disabled]"));
-//
-//        return res && !wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
-//
-//        //boolean disabled = wd.findElement(By.cssSelector("button[disabled]")).isDisplayed();
-//        //boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
-//
-//        //return disabled;  ///Этот метод можно сделать общим, так как кнопка может быть активной и не активной.
-//    }
+    public boolean isYallaButtonNotActive() {
+        boolean res = isElementPresent(By.cssSelector("button[disabled]"));
+
+        return res && !wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
+
+        //boolean disabled = wd.findElement(By.cssSelector("button[disabled]")).isDisplayed();
+        //boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
+
+        //return disabled;  ///Этот метод можно сделать общим, так как кнопка может быть активной и не активной.
+    }
+
+
 
     public String  getErrorText() {
         return wd.findElement(By.cssSelector("div.error>div")).getText();
@@ -143,5 +145,10 @@ public class HelperUser extends HelperBase {
                         .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child")),
                                 "Password must contain minimum 8 symbols"));
 
+    }
+
+    public boolean isErrorMessageDisplayed() {
+        String  text = wd.findElement(By.cssSelector("div.ng-star-inserted")).getText();
+        return text.equals("You can't pick date before today");
     }
 }

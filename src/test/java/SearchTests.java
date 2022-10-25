@@ -18,29 +18,12 @@ public class SearchTests extends TestBase {
         Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
     }
 
-//    @Test
-//    public void searchPeriodFuture() { // Если этот метод отработает, думаю его лучше прописать для проверки
-//        // негативного сценария.
-//        // указать дату прошлого. Тогда можно Ассерт написать на проверку сообщения об ошибке.
-//        app.getSearch().searchPeriodFuture("", "10/25/2022", "12/25/2022");
-//        app.getSearch().submit();
-//        Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
-//
-//    }
-
-//    @Test
-//    public void searchPeriodFuture2() { // Если этот метод отработает, думаю его лучше прописать для проверки
-//        // негативного сценария.
-//        // указать дату прошлого. Тогда можно Ассерт написать на проверку сообщения об ошибке.
-//        app.getSearch().searchPeriodFuture2("Tel Aviv", "11/25/2022", "12/25/2022");
-//
-//    }
     @Test
     public void searchInPast(){
         app.getSearch().typePeriodInPast("Rehovot Israel","10/5/2022","10/10/2022");
         app.getSearch().submitWithoutWaiting();
-        Assert.assertTrue(app.getSearch().isYallaButtonNotActive());
-        Assert.assertTrue(app.getSearch().isErrorMessageDisplayed());
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+        Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed());
 
 
     }
@@ -50,6 +33,7 @@ public class SearchTests extends TestBase {
         app.getSearch().selectAnyPeriod("Ashdod Israel", "12/20/2022","1/18/2023");
         app.getSearch().submit();
         Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
+        Assert.assertTrue(app.getSearch().isDataCorrect("2/20/2023","6/10/2023"));
 
 
     }
