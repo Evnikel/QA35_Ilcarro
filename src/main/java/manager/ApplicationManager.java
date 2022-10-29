@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
@@ -30,7 +31,11 @@ public class ApplicationManager {
         if(browser.equals(Browser.CHROME.browserName())){ // firefox!=chrome
             wd = new ChromeDriver();
             logger.info("All tests start in  ChromeDriver");
-        }else if (browser.equals(Browser.FIREFOX.browserName())){ //firefox =firefox
+        }else if (browser.equals(Browser.FIREFOX.browserName())){//firefox =firefox
+////            System.setProperty("webdriver.gecko.driver",
+////                    "C:\\QA35\\QA35_Ilcarro\\geckodriver.exe");
+//            FirefoxOptions options = new FirefoxOptions();
+//            options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe\"");
             wd= new FirefoxDriver();
             logger.info("All tests start in  Firefox");
         }else if (browser.equals(Browser.EDGE.browserName())){

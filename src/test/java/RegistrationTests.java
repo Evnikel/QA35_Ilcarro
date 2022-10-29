@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
@@ -32,7 +32,7 @@ public class RegistrationTests extends TestBase {
     }
 
 
-    @Test
+    @Test(description = "Bug Jira 00012")
     public void registrationSuccess() {
         System.out.println(System.currentTimeMillis());
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
@@ -51,7 +51,7 @@ public class RegistrationTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void registrationWrongPassword() {
         User user = new User()
                 .withName("Lisa")
@@ -71,7 +71,7 @@ public class RegistrationTests extends TestBase {
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.getHelperUser().clickOkButton();
     }

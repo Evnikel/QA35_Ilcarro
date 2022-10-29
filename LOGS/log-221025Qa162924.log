@@ -1,0 +1,25 @@
+16:29:27.304  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:29:29.618  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:29:29.661  INFO  TestBase - Start Method with name --->searchInPast
+16:29:29.661  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+16:29:29.693  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+16:29:29.984  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+16:29:30.041  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+16:29:30.808  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+16:29:30.857  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+16:29:30.905  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+16:29:30.942  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+16:29:30.942  INFO  manager.HelperBase - OS is --->Windows 11
+16:29:31.040  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+16:29:31.065  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+16:29:31.350  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+16:29:31.386  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+16:29:31.477  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+16:29:31.520  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+16:29:31.580  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[disabled]
+16:29:31.626  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: button[disabled]
+16:29:31.627  INFO  manager.ListenerWD - List size is -->1
+16:29:31.627  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [type='submit']
+16:29:31.658  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [type='submit']
+16:29:31.661  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.ng-star-inserted
+16:29:31.694  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.ng-star-inserted

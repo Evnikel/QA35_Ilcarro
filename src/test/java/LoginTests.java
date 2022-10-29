@@ -18,7 +18,7 @@ public class LoginTests extends TestBase {
 
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         logger.info("Start checking authorization");
         if (app.getHelperUser().isLogged()) {
@@ -57,7 +57,7 @@ public class LoginTests extends TestBase {
 
 
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginSuccessModels() {
         User user = new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@");
         logger.info("Login scenario success was used data"+user.toString());
@@ -99,7 +99,7 @@ public class LoginTests extends TestBase {
     }
 
 
-   @AfterMethod
+   @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.getHelperUser().clickOkButton();
     }

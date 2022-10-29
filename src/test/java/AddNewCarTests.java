@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class AddNewCarTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if (!app.getHelperUser().isLogged()) {
             app.getHelperUser().login(new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@"));
@@ -18,7 +18,7 @@ public class AddNewCarTests extends TestBase{
         }
     }
 
-    @Test
+    @Test(groups = {"smoke","sanity"})
     public void addCarSuccess(){
 
 
@@ -66,7 +66,7 @@ public class AddNewCarTests extends TestBase{
         logger.info("In assert checked message 'Car added' in dialog  ");
 
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void posCondition(){
         app.helperCar().returnToHomePage();
         logger.info("Return ------> Search cars");
