@@ -1,0 +1,181 @@
+18:11:31.929  INFO  manager.ApplicationManager - All tests start in  Firefox
+18:11:35.186  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+18:11:35.290  INFO  TestBase - Start Method with name --->addCarSuccess
+18:11:35.292  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:11:40.337  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:11:40.347  INFO  manager.ListenerWD - List size is -->0
+18:11:40.352  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+18:11:40.462  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+18:11:40.750  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+18:11:40.822  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+18:11:41.134  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+18:11:41.160  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+18:11:41.485  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+18:11:41.550  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+18:11:41.675  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+18:11:41.698  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+18:11:41.944  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+18:11:42.462  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+18:11:42.463  INFO  manager.ListenerWD - List size is -->1
+18:11:42.463  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+18:11:42.509  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+18:11:42.763  INFO  TestBase - Test AddNewCarTests start preCondition - run with email: evnikel@gmail.com and password: Elena1234$@
+18:11:43.288  INFO  manager.ListenerWD - Before Find Element By -->By.id: 1
+18:11:43.350  INFO  manager.ListenerWD - After Find Element By -->By.id: 1
+18:11:43.703  INFO  manager.ListenerWD - Before Find Element By -->By.id: pickUpPlace
+18:11:43.735  INFO  manager.ListenerWD - After Find Element By -->By.id: pickUpPlace
+18:11:44.130  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+18:11:44.586  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+18:11:45.836  INFO  manager.ListenerWD - Before Find Element By -->By.id: make
+18:11:45.875  INFO  manager.ListenerWD - After Find Element By -->By.id: make
+18:11:46.134  INFO  manager.ListenerWD - Before Find Element By -->By.id: model
+18:11:46.148  INFO  manager.ListenerWD - After Find Element By -->By.id: model
+18:11:46.422  INFO  manager.ListenerWD - Before Find Element By -->By.id: year
+18:11:46.489  INFO  manager.ListenerWD - After Find Element By -->By.id: year
+18:11:46.827  INFO  manager.ListenerWD - Before Find Element By -->By.id: engine
+18:11:46.885  INFO  manager.ListenerWD - After Find Element By -->By.id: engine
+18:11:47.210  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuel
+18:11:47.276  INFO  manager.ListenerWD - After Find Element By -->By.id: fuel
+18:11:47.537  INFO  manager.ListenerWD - Before Find Element By -->By.id: gear
+18:11:47.551  INFO  manager.ListenerWD - After Find Element By -->By.id: gear
+18:11:47.805  INFO  manager.ListenerWD - Before Find Element By -->By.id: wheelsDrive
+18:11:47.855  INFO  manager.ListenerWD - After Find Element By -->By.id: wheelsDrive
+18:11:48.196  INFO  manager.ListenerWD - Before Find Element By -->By.id: doors
+18:11:48.243  INFO  manager.ListenerWD - After Find Element By -->By.id: doors
+18:11:48.526  INFO  manager.ListenerWD - Before Find Element By -->By.id: seats
+18:11:48.543  INFO  manager.ListenerWD - After Find Element By -->By.id: seats
+18:11:48.813  INFO  manager.ListenerWD - Before Find Element By -->By.id: class
+18:11:48.858  INFO  manager.ListenerWD - After Find Element By -->By.id: class
+18:11:49.165  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuelConsumption
+18:11:49.209  INFO  manager.ListenerWD - After Find Element By -->By.id: fuelConsumption
+18:11:49.556  INFO  manager.ListenerWD - Before Find Element By -->By.id: serialNumber
+18:11:49.607  INFO  manager.ListenerWD - After Find Element By -->By.id: serialNumber
+18:11:49.931  INFO  manager.ListenerWD - Before Find Element By -->By.id: price
+18:11:49.975  INFO  manager.ListenerWD - After Find Element By -->By.id: price
+18:11:50.253  INFO  manager.ListenerWD - Before Find Element By -->By.id: distance
+18:11:50.264  INFO  manager.ListenerWD - After Find Element By -->By.id: distance
+18:11:50.511  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .feature-input
+18:11:50.524  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .feature-input
+18:11:50.823  INFO  manager.ListenerWD - Before Find Element By -->By.id: about
+18:11:50.866  INFO  manager.ListenerWD - After Find Element By -->By.id: about
+18:11:51.137  INFO  manager.ListenerWD - Before Find Element By -->By.id: photos
+18:11:51.159  INFO  manager.ListenerWD - After Find Element By -->By.id: photos
+18:11:51.216  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+18:11:51.276  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+18:11:53.056  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+18:11:53.075  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+18:11:53.362  INFO  TestBase - Tests start addCarSuccess with data----->Car(location=Haifa, Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegistrationNumber=11-000-704, price=65, distanceIncluded=800, features=Type of features, about=very nice car)
+18:11:53.362  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+18:11:54.386  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+18:11:54.455  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container>h1
+18:11:54.499  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container>h1
+18:11:54.540  INFO  TestBase - Assert ------> Car added
+18:11:54.545  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+18:11:54.571  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Search cars']
+18:11:54.814  INFO  TestBase - Return ------> Search cars
+18:11:54.855  INFO  TestBase - Start Method with name --->addCarSuccessDP
+18:11:54.860  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:11:54.926  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:11:54.927  INFO  manager.ListenerWD - List size is -->1
+18:11:54.928  INFO  TestBase - The test used car model : Car(location=Haifa, Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegistrationNumber=345-123-004, price=65, distanceIncluded=800, features=Type of features, about=very nice car)
+18:11:55.434  INFO  manager.ListenerWD - Before Find Element By -->By.id: 1
+18:11:55.470  INFO  manager.ListenerWD - After Find Element By -->By.id: 1
+18:11:55.811  INFO  manager.ListenerWD - Before Find Element By -->By.id: pickUpPlace
+18:11:55.839  INFO  manager.ListenerWD - After Find Element By -->By.id: pickUpPlace
+18:11:56.283  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+18:11:56.538  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+18:11:57.778  INFO  manager.ListenerWD - Before Find Element By -->By.id: make
+18:11:57.809  INFO  manager.ListenerWD - After Find Element By -->By.id: make
+18:11:58.056  INFO  manager.ListenerWD - Before Find Element By -->By.id: model
+18:11:58.068  INFO  manager.ListenerWD - After Find Element By -->By.id: model
+18:11:58.333  INFO  manager.ListenerWD - Before Find Element By -->By.id: year
+18:11:58.395  INFO  manager.ListenerWD - After Find Element By -->By.id: year
+18:11:58.707  INFO  manager.ListenerWD - Before Find Element By -->By.id: engine
+18:11:58.759  INFO  manager.ListenerWD - After Find Element By -->By.id: engine
+18:11:59.048  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuel
+18:11:59.090  INFO  manager.ListenerWD - After Find Element By -->By.id: fuel
+18:11:59.374  INFO  manager.ListenerWD - Before Find Element By -->By.id: gear
+18:11:59.420  INFO  manager.ListenerWD - After Find Element By -->By.id: gear
+18:11:59.736  INFO  manager.ListenerWD - Before Find Element By -->By.id: wheelsDrive
+18:11:59.772  INFO  manager.ListenerWD - After Find Element By -->By.id: wheelsDrive
+18:12:00.094  INFO  manager.ListenerWD - Before Find Element By -->By.id: doors
+18:12:00.140  INFO  manager.ListenerWD - After Find Element By -->By.id: doors
+18:12:00.435  INFO  manager.ListenerWD - Before Find Element By -->By.id: seats
+18:12:00.451  INFO  manager.ListenerWD - After Find Element By -->By.id: seats
+18:12:00.721  INFO  manager.ListenerWD - Before Find Element By -->By.id: class
+18:12:00.760  INFO  manager.ListenerWD - After Find Element By -->By.id: class
+18:12:01.080  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuelConsumption
+18:12:01.103  INFO  manager.ListenerWD - After Find Element By -->By.id: fuelConsumption
+18:12:01.401  INFO  manager.ListenerWD - Before Find Element By -->By.id: serialNumber
+18:12:01.449  INFO  manager.ListenerWD - After Find Element By -->By.id: serialNumber
+18:12:01.810  INFO  manager.ListenerWD - Before Find Element By -->By.id: price
+18:12:01.853  INFO  manager.ListenerWD - After Find Element By -->By.id: price
+18:12:02.163  INFO  manager.ListenerWD - Before Find Element By -->By.id: distance
+18:12:02.205  INFO  manager.ListenerWD - After Find Element By -->By.id: distance
+18:12:02.509  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .feature-input
+18:12:02.544  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .feature-input
+18:12:02.814  INFO  manager.ListenerWD - Before Find Element By -->By.id: about
+18:12:02.823  INFO  manager.ListenerWD - After Find Element By -->By.id: about
+18:12:03.133  INFO  manager.ListenerWD - Before Find Element By -->By.id: photos
+18:12:03.169  INFO  manager.ListenerWD - After Find Element By -->By.id: photos
+18:12:03.227  INFO  manager.ListenerWD - We have a 'problem'
+18:12:03.229  INFO  manager.ListenerWD - The name of error method  sendKeys
+18:12:03.244  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidArgumentException: File not found: C:/QA35/QA35_Ilcarro/src/test/resources/car.jpg
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f6a5b65d-1a80-4b5d-aa79-406e3d72351a, sendKeysToElement {id=5f8f76ba-8484-4ca6-9553-af07388307c6, value=[Ljava.lang.CharSequence;@7da1e005}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:65472, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13688, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:65472/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (f6a5b65d-1a80-4b5d-aa79-406e3d72351a)] -> id: photos]
+Session ID: f6a5b65d-1a80-4b5d-aa79-406e3d72351a
+18:12:03.245  INFO  manager.ListenerWD - *********************
+18:12:03.246  INFO  manager.ListenerWD - [[FirefoxDriver: firefox on WINDOWS (f6a5b65d-1a80-4b5d-aa79-406e3d72351a)] -> id: photos]
+18:12:03.270  INFO  manager.ListenerWD - Screen with error is 1927   src/test/screenshots1927.png
+18:12:03.272  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+18:12:08.289  INFO  manager.ListenerWD - We have a 'problem'
+18:12:08.291  INFO  manager.ListenerWD - The name of error method  findElement
+18:12:08.292  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f6a5b65d-1a80-4b5d-aa79-406e3d72351a, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:65472, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13688, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:65472/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6a5b65d-1a80-4b5d-aa79-406e3d72351a
+18:12:08.293  INFO  manager.ListenerWD - *********************
+18:12:08.294  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (f6a5b65d-1a80-4b5d-aa79-406e3d72351a)
+18:12:08.294  INFO  manager.ListenerWD - Screen with error is 1063   src/test/screenshots1063.png
+18:12:08.307  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:12:08.341  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:12:08.342  INFO  manager.ListenerWD - List size is -->1
+18:12:08.349  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+18:12:13.367  INFO  manager.ListenerWD - We have a 'problem'
+18:12:13.367  INFO  manager.ListenerWD - The name of error method  findElement
+18:12:13.368  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f6a5b65d-1a80-4b5d-aa79-406e3d72351a, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:65472, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13688, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:65472/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6a5b65d-1a80-4b5d-aa79-406e3d72351a
+18:12:13.368  INFO  manager.ListenerWD - *********************
+18:12:13.368  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (f6a5b65d-1a80-4b5d-aa79-406e3d72351a)
+18:12:13.369  INFO  manager.ListenerWD - Screen with error is 1230   src/test/screenshots1230.png
+18:12:13.373  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:12:13.404  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:12:13.405  INFO  manager.ListenerWD - List size is -->1
+18:12:13.409  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+18:12:18.435  INFO  manager.ListenerWD - We have a 'problem'
+18:12:18.436  INFO  manager.ListenerWD - The name of error method  findElement
+18:12:18.437  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f6a5b65d-1a80-4b5d-aa79-406e3d72351a, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:65472, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13688, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:65472/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6a5b65d-1a80-4b5d-aa79-406e3d72351a
+18:12:18.438  INFO  manager.ListenerWD - *********************
+18:12:18.439  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (f6a5b65d-1a80-4b5d-aa79-406e3d72351a)
+18:12:18.439  INFO  manager.ListenerWD - Screen with error is 1917   src/test/screenshots1917.png

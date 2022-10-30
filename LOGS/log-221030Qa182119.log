@@ -1,0 +1,58 @@
+18:21:24.404  INFO  manager.ApplicationManager - All tests start in  Firefox
+18:21:27.334  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+18:21:27.403  INFO  TestBase - Start Method with name --->registrationSuccess
+18:21:27.408  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:21:32.458  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:21:32.467  INFO  manager.ListenerWD - List size is -->0
+18:21:32.529  INFO  TestBase - Registration  scenario success was used dataUser{name='Lisa', lastname='Snow', email='lis1292@gmail.com', password='Lis123@12', phone='null'}
+18:21:32.531  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+18:21:32.586  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+18:21:32.874  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+18:21:32.934  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+18:21:33.216  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+18:21:33.247  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+18:21:33.516  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+18:21:33.547  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+18:21:33.824  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+18:21:33.847  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+18:21:34.164  INFO  TestBase - Tests start registrationSuccess with data----->User{name='Lisa', lastname='Snow', email='lis1292@gmail.com', password='Lis123@12', phone='null'}
+18:21:34.166  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+18:21:34.223  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+18:21:34.445  INFO  TestBase - Type ---> I agree to the terms of use and privacy policy and Button Yalla
+18:21:34.457  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+18:21:34.511  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+18:21:39.888  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+18:21:44.916  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+18:21:44.917  INFO  manager.ListenerWD - List size is -->0
+18:21:44.929  INFO  TestBase - Start Method with name --->registrationWrongPassword
+18:21:44.931  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:21:49.979  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+18:21:49.980  INFO  manager.ListenerWD - List size is -->0
+18:21:49.981  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+18:21:50.044  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+18:21:50.852  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+18:21:50.915  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+18:21:51.475  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+18:21:51.498  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+18:21:52.298  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+18:21:52.344  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+18:21:52.818  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+18:21:52.845  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+18:21:53.627  INFO  TestBase - Test registrationWrongPassword start- run withUser{name='Lisa', lastname='Snow', email='lis@gmail.com', password='Yis', phone='null'}
+18:21:53.628  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+18:21:53.676  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+18:21:53.739  INFO  manager.ListenerWD - We have a 'problem'
+18:21:53.741  INFO  manager.ListenerWD - The name of error method  perform
+18:21:53.742  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (901, 595) is out of bounds of viewport width (1280) and height (587)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cf35a3d5-04cd-42c9-918b-ffc534c0bbd2, actions {actions=[org.openqa.selenium.interactions.Sequence@1ba467c2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:54320, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20804, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:54320/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cf35a3d5-04cd-42c9-918b-ffc534c0bbd2
+18:21:53.743  INFO  manager.ListenerWD - *********************
+18:21:53.744  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (cf35a3d5-04cd-42c9-918b-ffc534c0bbd2)
+18:21:53.769  INFO  manager.ListenerWD - Screen with error is 1817   src/test/screenshots1817.png
+18:21:53.772  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+18:21:58.791  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+18:21:58.792  INFO  manager.ListenerWD - List size is -->0

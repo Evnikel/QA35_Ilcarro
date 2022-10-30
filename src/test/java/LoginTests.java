@@ -76,7 +76,7 @@ public class LoginTests extends TestBase {
         logger.info("Login negative scenario with wrong email was used data"+user.toString());
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submitWithoutWaiting();
+        app.getHelperUser().submitWithoutWait();
         Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
         Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
         logger.info("In assert checked error message 'It'snot look like email' under name field ");
@@ -89,7 +89,7 @@ public class LoginTests extends TestBase {
         logger.info("Login negative scenario with wrong passeord was used data"+user.toString());
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submitWithoutWaiting();
+        app.getHelperUser().submitWithoutWait();
         Assert.assertEquals(app.getHelperUser().getMessage(),"Wrong email or password");
         Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Authorization error");
         logger.info("In assert checked message 'Authorization error' & 'Wrong email or password' in dialog  ");

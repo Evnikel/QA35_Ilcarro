@@ -1,0 +1,463 @@
+17:48:36.437  INFO  manager.ApplicationManager - All tests start in  Firefox
+17:48:38.915  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+17:48:38.957  INFO  TestBase - Start Method with name --->addCarSuccess
+17:48:38.961  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:48:44.012  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:48:44.017  INFO  manager.ListenerWD - List size is -->0
+17:48:44.019  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+17:48:44.078  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+17:48:44.395  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:48:44.469  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:48:44.772  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:48:44.793  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:48:45.108  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:48:45.167  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:48:45.273  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:48:45.305  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:48:45.539  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:48:46.022  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:48:46.022  INFO  manager.ListenerWD - List size is -->1
+17:48:46.023  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:48:46.040  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:48:46.278  INFO  TestBase - Test AddNewCarTests start preCondition - run with email: evnikel@gmail.com and password: Elena1234$@
+17:48:46.792  INFO  manager.ListenerWD - Before Find Element By -->By.id: 1
+17:48:46.838  INFO  manager.ListenerWD - After Find Element By -->By.id: 1
+17:48:47.217  INFO  manager.ListenerWD - Before Find Element By -->By.id: pickUpPlace
+17:48:47.290  INFO  manager.ListenerWD - After Find Element By -->By.id: pickUpPlace
+17:48:47.711  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+17:48:48.181  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+17:48:49.435  INFO  manager.ListenerWD - Before Find Element By -->By.id: make
+17:48:49.447  INFO  manager.ListenerWD - After Find Element By -->By.id: make
+17:48:49.733  INFO  manager.ListenerWD - Before Find Element By -->By.id: model
+17:48:49.786  INFO  manager.ListenerWD - After Find Element By -->By.id: model
+17:48:50.115  INFO  manager.ListenerWD - Before Find Element By -->By.id: year
+17:48:50.174  INFO  manager.ListenerWD - After Find Element By -->By.id: year
+17:48:50.526  INFO  manager.ListenerWD - Before Find Element By -->By.id: engine
+17:48:50.589  INFO  manager.ListenerWD - After Find Element By -->By.id: engine
+17:48:50.886  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuel
+17:48:50.949  INFO  manager.ListenerWD - After Find Element By -->By.id: fuel
+17:48:51.293  INFO  manager.ListenerWD - Before Find Element By -->By.id: gear
+17:48:51.336  INFO  manager.ListenerWD - After Find Element By -->By.id: gear
+17:48:51.661  INFO  manager.ListenerWD - Before Find Element By -->By.id: wheelsDrive
+17:48:51.729  INFO  manager.ListenerWD - After Find Element By -->By.id: wheelsDrive
+17:48:52.016  INFO  manager.ListenerWD - Before Find Element By -->By.id: doors
+17:48:52.062  INFO  manager.ListenerWD - After Find Element By -->By.id: doors
+17:48:52.356  INFO  manager.ListenerWD - Before Find Element By -->By.id: seats
+17:48:52.386  INFO  manager.ListenerWD - After Find Element By -->By.id: seats
+17:48:52.682  INFO  manager.ListenerWD - Before Find Element By -->By.id: class
+17:48:52.721  INFO  manager.ListenerWD - After Find Element By -->By.id: class
+17:48:53.021  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuelConsumption
+17:48:53.044  INFO  manager.ListenerWD - After Find Element By -->By.id: fuelConsumption
+17:48:53.348  INFO  manager.ListenerWD - Before Find Element By -->By.id: serialNumber
+17:48:53.397  INFO  manager.ListenerWD - After Find Element By -->By.id: serialNumber
+17:48:53.738  INFO  manager.ListenerWD - Before Find Element By -->By.id: price
+17:48:53.773  INFO  manager.ListenerWD - After Find Element By -->By.id: price
+17:48:54.056  INFO  manager.ListenerWD - Before Find Element By -->By.id: distance
+17:48:54.096  INFO  manager.ListenerWD - After Find Element By -->By.id: distance
+17:48:54.430  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .feature-input
+17:48:54.477  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .feature-input
+17:48:54.769  INFO  manager.ListenerWD - Before Find Element By -->By.id: about
+17:48:54.807  INFO  manager.ListenerWD - After Find Element By -->By.id: about
+17:48:55.120  INFO  manager.ListenerWD - Before Find Element By -->By.id: photos
+17:48:55.133  INFO  manager.ListenerWD - After Find Element By -->By.id: photos
+17:48:55.154  INFO  manager.ListenerWD - We have a 'problem'
+17:48:55.155  INFO  manager.ListenerWD - The name of error method  sendKeys
+17:48:55.158  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidArgumentException: File not found: C:/QA35/QA35_Ilcarro/src/test/resources/car.jpg
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1d766ec8-d72c-4356-8c15-4be61e0d59a4, sendKeysToElement {id=2d62323f-4a62-4196-b3f5-a9746e64edf1, value=[Ljava.lang.CharSequence;@5e593b08}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:61618, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33060, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)] -> id: photos]
+Session ID: 1d766ec8-d72c-4356-8c15-4be61e0d59a4
+17:48:55.159  INFO  manager.ListenerWD - *********************
+17:48:55.159  INFO  manager.ListenerWD - [[FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)] -> id: photos]
+17:48:55.168  INFO  manager.ListenerWD - Screen with error is 1630   src/test/screenshots1630.png
+17:48:55.171  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+17:49:00.188  INFO  manager.ListenerWD - We have a 'problem'
+17:49:00.189  INFO  manager.ListenerWD - The name of error method  findElement
+17:49:00.190  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1d766ec8-d72c-4356-8c15-4be61e0d59a4, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:61618, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33060, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d766ec8-d72c-4356-8c15-4be61e0d59a4
+17:49:00.191  INFO  manager.ListenerWD - *********************
+17:49:00.192  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)
+17:49:00.193  INFO  manager.ListenerWD - Screen with error is 1387   src/test/screenshots1387.png
+17:49:00.222  INFO  TestBase - Start Method with name --->loginSuccess
+17:49:00.225  INFO  TestBase - Start checking authorization
+17:49:00.226  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:00.270  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:00.270  INFO  manager.ListenerWD - List size is -->1
+17:49:00.272  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:00.305  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:00.595  INFO  TestBase - Test was needed in logout 
+17:49:00.609  INFO  TestBase - Test LoginTests start with name ----->email: evnikel@gmail.compasswordElena1234$@
+17:49:00.610  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+17:49:00.660  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+17:49:00.930  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:49:00.981  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:49:01.299  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:49:01.312  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:49:01.629  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:01.666  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:01.757  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:01.768  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:01.992  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+17:49:02.372  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+17:49:02.422  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: h2.message
+17:49:02.447  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: h2.message
+17:49:02.485  INFO  TestBase - In assert checked message 'Logged in success' in dialog  
+17:49:03.002  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:03.073  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:03.074  INFO  manager.ListenerWD - List size is -->1
+17:49:03.076  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:49:03.121  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:49:03.856  INFO  TestBase - Start Method with name --->loginSuccess
+17:49:03.856  INFO  TestBase - Start checking authorization
+17:49:03.856  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:03.866  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:03.867  INFO  manager.ListenerWD - List size is -->1
+17:49:03.867  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:03.877  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:04.590  INFO  TestBase - Test was needed in logout 
+17:49:04.592  INFO  TestBase - Test LoginTests start with name ----->email: lis2161@gmail.compasswordLis123@12
+17:49:04.593  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+17:49:04.624  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+17:49:05.354  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:49:05.388  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:49:06.144  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:49:06.157  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:49:06.690  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:06.727  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:06.770  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:06.786  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:07.511  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+17:49:07.538  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+17:49:12.543  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:12.587  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:12.588  INFO  manager.ListenerWD - List size is -->1
+17:49:12.590  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:49:12.630  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:49:13.352  INFO  TestBase - Start Method with name --->loginSuccess
+17:49:13.354  INFO  TestBase - Start checking authorization
+17:49:13.354  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:13.387  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:13.387  INFO  manager.ListenerWD - List size is -->1
+17:49:13.388  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:13.456  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:14.182  INFO  TestBase - Test was needed in logout 
+17:49:14.183  INFO  TestBase - Test LoginTests start with name ----->email: lis2165@gmail.compasswordLis123@12
+17:49:14.183  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+17:49:14.194  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+17:49:15.010  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:49:20.021  INFO  manager.ListenerWD - We have a 'problem'
+17:49:20.022  INFO  manager.ListenerWD - The name of error method  findElement
+17:49:20.022  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: Unable to locate element: #email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1d766ec8-d72c-4356-8c15-4be61e0d59a4, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:61618, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33060, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d766ec8-d72c-4356-8c15-4be61e0d59a4
+17:49:20.023  INFO  manager.ListenerWD - *********************
+17:49:20.024  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)
+17:49:20.024  INFO  manager.ListenerWD - Screen with error is 1609   src/test/screenshots1609.png
+17:49:20.027  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:25.043  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:25.043  INFO  manager.ListenerWD - List size is -->0
+17:49:25.046  INFO  TestBase - Start Method with name --->loginSuccessModels
+17:49:25.047  INFO  TestBase - Start checking authorization
+17:49:25.048  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:30.074  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:30.074  INFO  manager.ListenerWD - List size is -->0
+17:49:30.074  INFO  TestBase - Test was not needed in logout 
+17:49:30.112  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}
+17:49:30.113  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='Log in']
+17:49:30.140  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='Log in']
+17:49:30.755  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:49:30.764  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:49:31.590  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:49:31.621  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:49:32.030  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:32.056  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:32.117  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:32.141  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:32.950  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+17:49:32.961  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+17:49:38.430  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:38.463  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:38.464  INFO  manager.ListenerWD - List size is -->1
+17:49:38.465  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:49:38.507  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:49:39.241  INFO  TestBase - Start Method with name --->loginSuccessModelsDP
+17:49:39.244  INFO  TestBase - Start checking authorization
+17:49:39.244  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:39.270  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:39.270  INFO  manager.ListenerWD - List size is -->1
+17:49:39.271  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:39.301  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:40.022  INFO  TestBase - Test was needed in logout 
+17:49:40.024  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='evnikel@gmail.com', password='Elena1234$@', phone='null'}
+17:49:40.025  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='Log in']
+17:49:40.058  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='Log in']
+17:49:40.729  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:49:40.746  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:49:41.569  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:49:41.581  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:49:42.016  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:42.036  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:42.085  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:42.101  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:42.833  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+17:49:42.859  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+17:49:48.368  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:48.396  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:48.397  INFO  manager.ListenerWD - List size is -->1
+17:49:48.397  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:49:48.422  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:49:49.163  INFO  TestBase - Start Method with name --->loginSuccessModelsDP
+17:49:49.164  INFO  TestBase - Start checking authorization
+17:49:49.164  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:49.190  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:49.191  INFO  manager.ListenerWD - List size is -->1
+17:49:49.191  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:49.217  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:49.950  INFO  TestBase - Test was needed in logout 
+17:49:49.951  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='lis2161@gmail.com', password='Lis123@12', phone='null'}
+17:49:49.952  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='Log in']
+17:49:49.976  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='Log in']
+17:49:50.675  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:49:50.713  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:49:51.555  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:49:51.587  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:49:51.948  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:51.975  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:52.034  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:49:52.058  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:49:52.780  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+17:49:52.809  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+17:49:57.815  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:57.841  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:49:57.841  INFO  manager.ListenerWD - List size is -->1
+17:49:57.842  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:49:57.867  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:49:58.604  INFO  TestBase - Start Method with name --->loginSuccessModelsDP
+17:49:58.606  INFO  TestBase - Start checking authorization
+17:49:58.606  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:58.629  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:49:58.629  INFO  manager.ListenerWD - List size is -->1
+17:49:58.630  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:58.658  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+17:49:59.384  INFO  TestBase - Test was needed in logout 
+17:49:59.386  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='lis2165@gmail.com', password='Lis123@12', phone='null'}
+17:49:59.387  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='Log in']
+17:49:59.422  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='Log in']
+17:50:00.002  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:50:00.043  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:50:00.822  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:50:00.831  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:50:01.226  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:50:01.235  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:50:01.255  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:50:01.264  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:50:01.976  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+17:50:01.987  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+17:50:07.494  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:07.531  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:07.532  INFO  manager.ListenerWD - List size is -->1
+17:50:07.533  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:50:07.572  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:50:08.300  INFO  TestBase - Start Method with name --->negativeWrongEmail
+17:50:08.302  INFO  TestBase - Start checking authorization
+17:50:08.303  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:08.331  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:08.332  INFO  manager.ListenerWD - List size is -->1
+17:50:08.333  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+17:50:08.360  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+17:50:09.083  INFO  TestBase - Test was needed in logout 
+17:50:09.085  INFO  TestBase - Login negative scenario with wrong email was used dataUser{name='null', lastname='null', email='evnikelgmail.com', password='Elena1234$@', phone='null'}
+17:50:09.086  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+17:50:09.118  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+17:50:09.854  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:50:09.879  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:50:10.701  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:50:10.728  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:50:11.215  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:50:11.254  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:50:11.982  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.error>div
+17:50:12.009  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.error>div
+17:50:12.030  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[disabled]
+17:50:12.059  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: button[disabled]
+17:50:12.059  INFO  manager.ListenerWD - List size is -->1
+17:50:12.059  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [type='submit']
+17:50:12.089  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [type='submit']
+17:50:12.101  INFO  TestBase - In assert checked error message 'It'snot look like email' under name field 
+17:50:12.104  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:17.121  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:17.122  INFO  manager.ListenerWD - List size is -->0
+17:50:17.123  INFO  TestBase - Start Method with name --->negativeWrongPassword
+17:50:17.124  INFO  TestBase - Start checking authorization
+17:50:17.124  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:22.144  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:22.144  INFO  manager.ListenerWD - List size is -->0
+17:50:22.144  INFO  TestBase - Test was not needed in logout 
+17:50:22.146  INFO  TestBase - Login negative scenario with wrong passeord was used dataUser{name='null', lastname='null', email='evnikel@gmail.com', password='Ylena1234$@', phone='null'}
+17:50:22.146  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+17:50:22.171  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+17:50:22.935  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:50:22.989  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:50:23.551  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:50:23.560  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:50:24.333  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:50:24.343  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:50:24.784  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+17:50:24.794  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+17:50:30.302  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:30.326  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:30.327  INFO  manager.ListenerWD - List size is -->1
+17:50:30.327  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+17:50:30.350  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+17:50:31.070  INFO  TestBase - Start Method with name --->registrationSuccess
+17:50:31.071  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:36.090  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:36.091  INFO  manager.ListenerWD - List size is -->0
+17:50:36.093  INFO  TestBase - Registration  scenario success was used dataUser{name='Lisa', lastname='Snow', email='lis3036@gmail.com', password='Lis123@12', phone='null'}
+17:50:36.094  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+17:50:36.114  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+17:50:36.837  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+17:50:36.845  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+17:50:37.468  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+17:50:37.489  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+17:50:38.249  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:50:38.271  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:50:38.812  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:50:38.832  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:50:39.600  INFO  TestBase - Tests start registrationSuccess with data----->User{name='Lisa', lastname='Snow', email='lis3036@gmail.com', password='Lis123@12', phone='null'}
+17:50:39.601  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+17:50:39.621  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+17:50:39.796  INFO  TestBase - Type ---> I agree to the terms of use and privacy policy and Button Yalla
+17:50:39.796  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:50:39.817  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:50:44.856  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:49.866  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:50:49.866  INFO  manager.ListenerWD - List size is -->0
+17:50:49.868  INFO  TestBase - Start Method with name --->registrationWrongPassword
+17:50:49.869  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:54.883  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+17:50:54.883  INFO  manager.ListenerWD - List size is -->0
+17:50:54.884  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+17:50:54.907  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+17:50:55.647  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+17:50:55.669  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+17:50:56.241  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+17:50:56.256  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+17:50:57.072  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+17:50:57.101  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+17:50:57.592  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+17:50:57.619  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+17:50:58.363  INFO  TestBase - Test registrationWrongPassword start- run withUser{name='Lisa', lastname='Snow', email='lis@gmail.com', password='Yis', phone='null'}
+17:50:58.363  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+17:50:58.372  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+17:50:58.384  INFO  manager.ListenerWD - We have a 'problem'
+17:50:58.384  INFO  manager.ListenerWD - The name of error method  perform
+17:50:58.385  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (901, 595) is out of bounds of viewport width (1280) and height (587)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1d766ec8-d72c-4356-8c15-4be61e0d59a4, actions {actions=[org.openqa.selenium.interactions.Sequence@7f4f1536]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:61618, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33060, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d766ec8-d72c-4356-8c15-4be61e0d59a4
+17:50:58.385  INFO  manager.ListenerWD - *********************
+17:50:58.385  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)
+17:50:58.385  INFO  manager.ListenerWD - Screen with error is 1300   src/test/screenshots1300.png
+17:50:58.386  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:51:03.402  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+17:51:03.402  INFO  manager.ListenerWD - List size is -->0
+17:51:03.407  INFO  TestBase - Start Method with name --->searchAnePeriod
+17:51:03.409  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+17:51:03.435  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+17:51:04.044  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+17:51:04.054  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+17:51:05.538  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+17:51:06.355  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+17:51:07.092  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+17:51:07.114  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+17:51:07.115  INFO  manager.HelperBase - OS is --->Windows 11
+17:51:07.180  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+17:51:07.210  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+17:51:07.605  INFO  manager.HelperBase - year --> 2022
+17:51:07.605  INFO  manager.HelperBase - Day  of Month -->30
+17:51:07.605  INFO  manager.HelperBase - Month value -->10
+17:51:07.605  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+17:51:07.617  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+17:51:08.349  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+17:51:08.380  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+17:51:08.883  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 20 ']
+17:51:08.908  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 20 ']
+17:51:09.637  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+17:51:09.651  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+17:51:09.922  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 18 ']
+17:51:09.944  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 18 ']
+17:51:10.679  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:51:10.702  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:51:10.765  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:51:10.793  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:51:11.517  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: a.car-container
+17:51:11.800  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: a.car-container
+17:51:11.800  INFO  manager.ListenerWD - List size is -->1
+17:51:11.800  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: input[aria-haspopup='dialog']
+17:51:11.821  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: input[aria-haspopup='dialog']
+17:51:11.830  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+17:51:11.830  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+17:51:11.839  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+17:51:12.370  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+17:51:12.391  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+17:51:13.762  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+17:51:13.784  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+17:51:14.520  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+17:51:14.543  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+17:51:14.543  INFO  manager.HelperBase - OS is --->Windows 11
+17:51:14.590  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+17:51:14.621  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+17:51:15.352  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 ']
+17:51:15.379  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 25 ']
+17:51:16.025  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 30 ']
+17:51:16.033  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 30 ']
+17:51:16.749  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+17:51:16.773  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+17:51:21.935  INFO  TestBase - Start Method with name --->searchInPast
+17:51:21.936  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+17:51:21.943  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+17:51:21.950  INFO  manager.ListenerWD - We have a 'problem'
+17:51:21.951  INFO  manager.ListenerWD - The name of error method  click
+17:51:21.951  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (220,34) because another element <div id="cdk-overlay-0" class="cdk-overlay-pane mat-datepicker-popup"> obscures it
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1d766ec8-d72c-4356-8c15-4be61e0d59a4, clickElement {id=6041a384-d72c-4005-a129-0018512e9fb9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:61618, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33060, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)] -> css selector: .header a.logo]
+Session ID: 1d766ec8-d72c-4356-8c15-4be61e0d59a4
+17:51:21.951  INFO  manager.ListenerWD - *********************
+17:51:21.951  INFO  manager.ListenerWD - [[FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)] -> css selector: .header a.logo]
+17:51:21.951  INFO  manager.ListenerWD - Screen with error is 1786   src/test/screenshots1786.png
+17:51:21.954  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+17:51:21.964  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+17:51:21.970  INFO  manager.ListenerWD - We have a 'problem'
+17:51:21.970  INFO  manager.ListenerWD - The name of error method  click
+17:51:21.970  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (220,34) because another element <div id="cdk-overlay-0" class="cdk-overlay-pane mat-datepicker-popup"> obscures it
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1d766ec8-d72c-4356-8c15-4be61e0d59a4, clickElement {id=6041a384-d72c-4005-a129-0018512e9fb9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:61618, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33060, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)] -> css selector: .header a.logo]
+Session ID: 1d766ec8-d72c-4356-8c15-4be61e0d59a4
+17:51:21.970  INFO  manager.ListenerWD - *********************
+17:51:21.970  INFO  manager.ListenerWD - [[FirefoxDriver: firefox on WINDOWS (1d766ec8-d72c-4356-8c15-4be61e0d59a4)] -> css selector: .header a.logo]
+17:51:21.970  INFO  manager.ListenerWD - Screen with error is 1210   src/test/screenshots1210.png

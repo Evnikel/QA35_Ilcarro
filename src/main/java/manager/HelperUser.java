@@ -86,10 +86,8 @@ public class HelperUser extends HelperBase {
         WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
 
+        // pause(2000);
         return wd.findElement(By.cssSelector("div.dialog-container>h1")).getText();
-
-        //return wd.findElement(By.xpath("//*[text()='Authorization error']")).getText();
-
     }
 
 

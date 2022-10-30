@@ -16,18 +16,18 @@ public class TestBase {
 
             .browserName()));
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void loggerGetMethodName(Method m){
         logger.info("Start Method with name --->" +m.getName());
     }
 
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void setUp() {
         app.init();
     }
 
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void tearDown() {
         app.stop();
 

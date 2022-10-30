@@ -46,7 +46,7 @@ public class AddNewCarTests extends TestBase{
                 .build();
         app.helperCar().openCarForm();
         app.helperCar().fillCarForm(car);
-        app.helperCar().attachPhoto("C:/QA35/QA35_Ilcarro/src/test/resources/car.jpg");
+        app.helperCar().attachPhoto("C:\\QA35\\QA35_Ilcarro\\src\\test\\resources\\car.jpg");
         app.helperCar().submit();
         logger.info("Tests start addCarSuccess with data----->" +car.toString());
         Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Car added");
@@ -54,12 +54,18 @@ public class AddNewCarTests extends TestBase{
 
     }
 
-    @Test (dataProvider = "carValidData",dataProviderClass = DataProviderCar.class,enabled = false)
+    @Test (dataProvider = "carValidData",dataProviderClass = DataProviderCar.class)
     public void addCarSuccessDP(Car car){
+
+        Random random = new Random();
+        int i =  random.nextInt(1000)+1000;
+
+        car.setCarRegistrationNumber("111-899-" +i);
+
         logger.info("The test used car model : " +car.toString());
         app.helperCar().openCarForm();
         app.helperCar().fillCarForm(car);
-        app.helperCar().attachPhoto("C:/QA35/QA35_Ilcarro/src/test/resources/car.jpg");
+        app.helperCar().attachPhoto("C:\\QA35\\QA35_Ilcarro\\src\\test\\resources\\car.jpg");
         app.helperCar().submit();
 
         Assert.assertEquals(app.getHelperUser().getTitleMessage(),"Car added");

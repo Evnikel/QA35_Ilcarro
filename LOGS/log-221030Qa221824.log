@@ -1,0 +1,40 @@
+22:18:45.106  INFO  manager.ApplicationManager - All tests start in  Firefox
+22:18:47.811  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+22:18:47.876  INFO  TestBase - Start Method with name --->registrationSuccess
+22:18:47.879  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+22:18:52.942  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+22:18:52.969  INFO  manager.ListenerWD - List size is -->0
+22:18:53.108  INFO  TestBase - Registration  scenario success was used dataUser{name='Lisa', lastname='Snow', email='lis1132@gmail.com', password='Lis123@12', phone='null'}
+22:18:53.111  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+22:18:53.185  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+22:18:53.925  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+22:18:54.002  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+22:18:54.562  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+22:18:54.591  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+22:18:55.375  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+22:18:55.443  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+22:18:55.949  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+22:18:56.005  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+22:18:56.778  INFO  TestBase - Tests start registrationSuccess with data----->User{name='Lisa', lastname='Snow', email='lis1132@gmail.com', password='Lis123@12', phone='null'}
+22:18:56.778  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+22:18:56.794  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+22:18:56.955  INFO  TestBase - Type ---> I agree to the terms of use and privacy policy and Button Yalla
+22:18:56.957  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+22:18:57.018  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+22:18:59.757  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+22:19:04.806  INFO  manager.ListenerWD - We have a 'problem'
+22:19:04.808  INFO  manager.ListenerWD - The name of error method  findElement
+22:19:04.820  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: Unable to locate element: div.dialog-container
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f6ef4e6b-d598-4cf3-8fd5-981066873821, findElement {using=css selector, value=div.dialog-container}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:63405, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24232, moz:profile: C:\Users\evnik\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63405/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6ef4e6b-d598-4cf3-8fd5-981066873821
+22:19:04.821  INFO  manager.ListenerWD - *********************
+22:19:04.822  INFO  manager.ListenerWD - FirefoxDriver: firefox on WINDOWS (f6ef4e6b-d598-4cf3-8fd5-981066873821)
+22:19:04.845  INFO  manager.ListenerWD - Screen with error is 1526   src/test/screenshots1526.png
+22:19:04.852  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+22:19:09.876  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+22:19:09.877  INFO  manager.ListenerWD - List size is -->0
