@@ -62,13 +62,13 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().openRegistrationFormHeader();
         app.getHelperUser().fillRegistrationForm(user);
         logger.info("Test registrationWrongPassword start- run with" +user.toString());
-        app.getHelperUser().checkPolicy();
-        //app.getHelperUser().checkPolicyXY();
+        //app.getHelperUser().checkPolicy();
+        app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submitWithoutWait();
-//        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
-//        logger.info("Assert Error ---> Password must contain 1 uppercase letter, 1 lowercase letter and one number");
-//        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
-//        logger.info("Assert Error ---> Password must contain minimum 8 symbols");
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+        logger.info("Assert Error ---> Password must contain 1 uppercase letter, 1 lowercase letter and one number");
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        logger.info("Assert Error ---> Password must contain minimum 8 symbols");
         Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
         logger.info("The Y'alla button was not active");
 
