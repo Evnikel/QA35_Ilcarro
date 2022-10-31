@@ -12,7 +12,7 @@ public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.FIREFOX
+    static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME
 
             .browserName()));
 
